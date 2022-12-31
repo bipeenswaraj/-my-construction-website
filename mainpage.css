@@ -1,0 +1,93 @@
+,::before,*::after{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #D1D1D1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: #050000;
+}
+
+.firstPart{
+    /* border: 1px solid red; */
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.secondPart{
+    border: 1px solid black;
+    height: 5vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+    display: grid;
+    grid-template-columns:
+  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.thirdPart{
+/* border: 1px solid green; */
+height: 50vh;
+
+}
+.fourthPart{
+    /* border: 1px solid fuchsia; */
+    height: 25vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.fifthPart{
+    /* border: 1px solid black; */
+    height: 10vh;
+
+}
+.loginBtn{
+    color: #050000;
+    padding: .3rem;
+    border-radius: 5px;
+    height: 2rem;
+    width: 60px;
+}
+
+.thirdPart >img{
+    height: 50vh;
+    width: -webkit-fill-available;
+    object-fit: initial;
+
+}
+.firstPart > img{
+    height: 10vh;
+    width: 10rem;
+}
+.firstPart > input{
+    height: 2rem;
+    padding: 2px;
+    text-align: center;
+    border-radius: 10px;
+}
+.secondPart>button{
+    height: inherit;
+    
+}
+.fourthPart > div>video {
+    height: 16rem;
+    width:35rem;
+
+}
+.fourthDiv{
+    height: 10rem;
+    display: grid;
+    place-items: center;
+}
+.readMore{
+    color: #050000;
+    padding: .3rem;
+    border-radius: 5px;
+    height: 3rem;
+    width: 60px;
+}
+button{
+   cursor: pointer;
+}
